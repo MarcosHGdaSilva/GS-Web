@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@700&family=PT+Sans+Narrow&display=swap');
+
+
+.principal_topico{
+    padding: 0px 300px;
+    font-family: 'Anton', sans-serif;
+    color: green;
+}
+.anuncio{
+    margin: 0px 50px;
+    padding: 30px;
+    font-size: large;
+    font-family: 'Bebas Neue', sans-serif; 
+}
+.negrito{
+    color: green;
+}
+
+section{
+    width: 700px;
+    margin: 0px 50px;
+    padding: 20px;
+    font-size: small;
+    font-family: 'Roboto Serif', serif;
+}
+.bloco_texto_imagem{
+    display: flex;
+    flex-direction: row; 
+}
+.bloco_texto{
+    display: flex;
+    flex-direction: column;
+}
+.principal_texto_imagem{
+    width: 275px;
+    height: 183px;
+    margin: 10px;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Inter:wght@200&family=Roboto+Serif&display=swap');
+@media (min-width: 600px){
+    body{
+        width: 600px;
+        height: 1000px; 
+    }
+
+}
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    height: 1000px; 
+}
+main{
+    width: 800px;
+    height:1000px;
+    margin: 0px 200px;
+    background-color: white;
+    position: relative;
+}
+header{
+    width: 1200px;
+    height: 150px;
+    background-color:#006400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.logo{
+    width: 250px;
+    height: 250px;
+}
+
+.cabecalho_link{
+    margin: 40px 20px 0px 20px;
+    
+}
+.cabecalho_link_links{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: large;
+    
+}
+.cabecalho_link_links:hover{
+    color: rgb(43, 43, 43);
+}
+
+.corpo_imagem_fundo{
+    width: 1200px;
+    height: 1000px;
+    position: absolute;
+}
+
+footer{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: small;
+    width: 1200px;
+    height: 120px;
+    padding: 10px 400px;
+    background-color: 	#006400	;
+    color: white;
+}
+
