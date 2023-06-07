@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@700&family=PT+Sans+Narrow&display=swap');
+
+main{
+    padding: 20px; 
+}
+form{
+    margin: 20px 0px;
+    
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.formulario{
+    border: solid 1px black;
+    margin: 20px 0px;
+    padding: 20px;
+}
+.link_correio{
+    text-decoration: none;
+}
+.link_correio:hover{
+    color: blueviolet;
+}
+.botao{
+    margin: 0px 300px;
+    width: 100px;
+    height: 30px;
+    border: solid 2px darkgreen;
+    background-color: green;
+    border-radius: 5px;
+    
+}
+.botao:hover{
+    background-color: lawngreen;
+}
