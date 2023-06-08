@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+    
+
+body *, body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Inter';
+    text-decoration: none;
+}
+
+body {
+    background-color: #dbdbdb;
+    background-size: contain;
+}
+
+main{
+    width: 1200px;
+    height: auto;
+    background-color: white;
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 70px;
+    
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color:#006400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+
+.cabecalho_link{
+    margin: 40px 15% 0px 20px;
+    
+}
+.cabecalho_link_links{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 16px;
+    
+}
+.cabecalho_link_links:hover{
+    color: rgb(43, 43, 43);
+}
+
+.corpo_imagem_fundo{
+    width: 1200px;
+    height: 1000px;
+    position: absolute;
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    width: 100%;
+    height: 180px;
+    padding: 40px 10%;
+    background-color: 	#1f1f1f	;
+    color: white;
+}
+
+footer p{
+    width: 500px;
+}
+
+/*Reponsivdade para tablet*/
+@media screen and (max-width: 1200px){
+
+    main{
+        width: 900px;
+        background-color: white;
+    
+        
+    }
+
+    header{
+        width: 100%;
+        height: 350px;
+        background-color:#006400;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        
+    }
+    .cabecalho_link{
+        margin: 40px 5% 0px 20px;
+        
+    }
+    .cabecalho_link_links{
+        font-family: 'Inter', sans-serif;
+        color: white;
+        text-decoration: none;
+        margin: 5px;
+        font-size: 16px;
+        text-align: center;
+        
+    }
+    .logo{
+        width: 300px;
+        height: 300px;
+    }
+
+    .cabecalho_link{
+        margin: 0;
+        
+    }
+
+ 
+}
+
+/*Reponsivdade para celular*/
+@media screen and (max-width: 900px){
+
+    main{
+        width: 700px;
+        background-color: white;
+    }
+
+    .cabecalho_link_links{
+        font-family: 'Inter', sans-serif;
+        color: white;
+        text-decoration: none;
+        margin: 5px;
+        font-size: 14px;    
+    }
+
+
+
+}
