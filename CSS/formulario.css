@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+h1{
+    padding-top: 60px;
+    margin-left: 40%;
+    font-family: 'Kanit', sans-serif;
+    color: green;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    
+}
+main{
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+b {
+    color: red;
+}
+h5{
+    margin-top: 30px;
+}
+
+form{
+    margin: 20px 0px;
+    font-family: 'Inter', sans-serif;
+    width: 800px;
+    position: relative;
+    margin-left: 100px;
+}
+.formulario{
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 30px 0px;
+    padding: 20px;
+}
+.link_correio{
+    text-decoration: none;
+}
+.link_correio:hover{
+    color: blueviolet;
+}
+.botao{
+    margin: 0px 300px;
+    width: 200px;
+    height: 50px;
+    border: solid 2px darkgreen;
+    background-color: green;
+    border-radius: 5px;
+    font-size: larger;
+    
+}
+.botao:hover{
+    background-color: rgb(92, 184, 0);
+}
+
+input{
+    margin: 10px;
+}
+
+h3 {
+    margin-top: 60px;
+    margin-bottom: -20px;
+    font-size: 24px;
+}
