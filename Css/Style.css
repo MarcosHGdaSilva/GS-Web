@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@700&family=PT+Sans+Narrow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    height: 1000px;
+    margin: 0px 250px;
+    
+    
+}
+main{
+    width: 800px;
+    height:1000px;
+    margin: 0px 200px;
+    background-color: white;
+    position: relative;
+}
+header{
+    width: 1200px;
+    height: 150px;
+    background-color:#006400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cabecalho_texto{
+    
+    padding: 10px 200px;
+    font-family: 'Anton', sans-serif;
+}
+.cabecalho_link{
+    margin: 20px 200px;
+    color: black;
+}
+.cabecalho_link_links{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: large;
+    
+}
+.cabecalho_link_links:hover{
+    color: rgb(43, 43, 43);
+}
+
+.corpo_imagem_fundo{
+    width: 1200px;
+    height: 1000px;
+    position: absolute;
+}
+
+footer{
+    width: 1200px;
+    height: 100px;
+    background-color: 	#006400	;
+    color: white;
+}
